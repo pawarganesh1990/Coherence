@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE pof-config SYSTEM "pof-config.dtd">
+
+<pof-config>
+	<user-type-list>
+		<include>coherence-pof-config.xml</include>
+		<user-type>
+			<type-id>2701</type-id>
+			<class-name>com.javahonk.pricecacheserializers.Prices</class-name>
+			<serializer>
+				<class-name>com.javahonk.pricecacheserializers.PricesSerializer</class-name>
+			</serializer>
+		</user-type>				
+	</user-type-list>
+</pof-config>
